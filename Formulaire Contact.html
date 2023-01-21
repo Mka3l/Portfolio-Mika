@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="utf-8">
+            <title>Formulaire contact</title>
+        </head>
+        <body>
+            <h1>Pour me contacter veuillez remplir le formulaire</h1>
+            <form action="destionation.html">
+                <fieldset>
+                    <legend>A propos de vous</legend>
+                    <p>Nom <input type="text"></p>
+                    <p>Prénom <input type="text"></p>
+                    <p>A partir de quelle date vous aurez besoin de mes services? <input type="date"></p>
+                    <fieldset>
+                     <legend>Votre offre</legend>
+                     <label><input type="radio" name="lieu" id="Emploi"> Emploi </label>
+                     <label><input type="radio" name="lieu" id="Partenariat"> Partenariat </label>
+                     <label><input type="radio" name="Autre" id="Autre"> Autre </label>
+                    </fieldset>
+                    <p>Votre adresse</Address>
+                    <textarea id="adresse" rows="2" cols="30" placeholder="adresse postal"></textarea></p>
+                    <p>Code postal <input type="number" placeholder="code postal"></p>
+                    <p>Adresse éléctronique <input type="email" placeholder="e-mail"></p>
+                    <p>Votre page <input type="pageweb" placeholder="page web"></p>
+                    <p>Téléphone portable<input type="numéro" placeholder="numéro telephone"></p>
+                    <p>Langage de programmation qui vous intéresse
+                        <select>
+                            <option value="Java">Java</option>
+                            <option value="JavaScript">Javascript</option>
+                            <option value="C#">C#</option>
+                            <option value="C++">C++</option>
+                        </select>
+                    </p>
+                    <button type="submit">Evoyer</button>
+                </fieldset>
+            </form>
+        </body>
+</html>
